@@ -1,3 +1,30 @@
 {
-  "apps": []
+  "apps": [
+    {
+      "name": "DSH 通知 · 电脑端",
+      "tagline": "任务结束，手机自动提醒",
+      "desc": "装到 DSH（DeepSeek Harness）里的插件。每轮任务结束或出错时，自动把一条提醒推到已配对的手机 App，手机顶部弹出通知，人再回电脑看结果。纯局域网、扫码配对一次、永久使用。",
+      "icon": "🖥️",
+      "tone": "blue",
+      "version": "0.4.1",
+      "platforms": ["Windows"],
+      "size": "约 1 MB",
+      "download": "https://xxx8424.github.io/files/dsh-lan-sms-v0.4.1.zip",
+      "downloadCode": "",
+      "github": ""
+    },
+    {
+      "name": "DSH 通知 · 安卓端",
+      "tagline": "接收电脑提醒的手机 App",
+      "desc": "扫码配对后常驻后台接收提醒。支持普通横幅或常驻悬浮卡、震动开关、自定义图标和背景，圆润清爽的浅色玻璃界面。",
+      "icon": "📱",
+      "tone": "green",
+      "version": "1.0",
+      "platforms": ["Android"],
+      "size": "约 0.6 MB",
+      "download": "https://xxx8424.github.io/files/app.apk",
+      "downloadCode": "",
+      "github": ""
+    }
+  ]
 }
