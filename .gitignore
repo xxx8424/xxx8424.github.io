@@ -1,0 +1,6 @@
+# 预览截图不需要上传
+preview/
+
+.DS_Store
+Thumbs.db
+*.log
