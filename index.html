@@ -291,10 +291,19 @@
     if (hasBaidu && app.baiduCode) codes.push({ label: "百度提取码", code: app.baiduCode });
 
     let dl = "";
-    if (hasDl) dl += btn(app.download, "btn-primary", "下载");
+    // 多个下载项（downloads: [{label, url}, ...]）优先；否则用单个 download
+    if (Array.isArray(app.downloads) && app.downloads.length) {
+      app.downloads.forEach((d, i) => {
+        const u = d && d.url && String(d.url).trim();
+        if (u) dl += btn(u, i === 0 ? "btn-primary" : "btn-soft", (d && d.label) || "下载");
+      });
+    } else if (hasDl) {
+      dl += btn(app.download, "btn-primary", "下载");
+    }
     if (hasQuark) dl += btn(app.quark, "btn-primary", "夸克网盘");
     if (hasBaidu) dl += btn(app.baidu, "btn-soft", "百度网盘");
-    if (!hasDl && !hasQuark && !hasBaidu && app.github) dl += btn(app.github, "btn-soft", "GitHub 下载");
+    const hasAnyDl = (Array.isArray(app.downloads) && app.downloads.some((d) => d && d.url && String(d.url).trim())) || hasDl || hasQuark || hasBaidu;
+    if (!hasAnyDl && app.github) dl += btn(app.github, "btn-soft", "GitHub 下载");
 
     const meta = [app.version ? "v" + app.version : "", (app.platforms || []).join(" / "), app.size || ""]
       .filter(Boolean)

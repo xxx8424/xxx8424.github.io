@@ -9,7 +9,11 @@
       "version": "1.0",
       "platforms": ["Android"],
       "size": "约 3.7 MB",
-      "download": "https://xxx8424.github.io/files/VirtualLocation-app-debug.apk",
+      "downloads": [
+        { "label": "下载主应用", "url": "https://xxx8424.github.io/files/VirtualLocation-app-debug.apk" },
+        { "label": "下载 LSPosed 模块", "url": "https://xxx8424.github.io/files/VirtualLocation-xposed-debug.apk" }
+      ],
+      "download": "",
       "downloadCode": "",
       "github": ""
     },
