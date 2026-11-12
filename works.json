@@ -1,6 +1,19 @@
 {
   "apps": [
     {
+      "name": "VirtualLocation · 安卓虚拟定位",
+      "tagline": "把手机定位改到任意地点",
+      "desc": "打开就是全屏地图，拖动或点击选点，即可把系统定位改到该坐标。免 Root（设为「模拟位置信息应用」即可）用主 App；Root + LSPosed 用户可加装增强模块抹除模拟痕迹。地图用 OpenStreetMap，免 Key、免申请账号。",
+      "icon": "📍",
+      "tone": "green",
+      "version": "1.0",
+      "platforms": ["Android"],
+      "size": "约 3.7 MB",
+      "download": "https://xxx8424.github.io/files/VirtualLocation-app-debug.apk",
+      "downloadCode": "",
+      "github": ""
+    },
+    {
       "name": "WorkBuddy AI 接入 DSH",
       "tagline": "免费模型接进 DeepSeek Harness",
       "desc": "把 WorkBuddy AI 国际版的免费模型接入 DSH 的一键安装包。下载解压后双击 install.cmd，重启 DSH 就能在模型选择器看到「WorkBuddy AI」分组。插件来自开源项目 @venshell/dsh-workbuddy-connect（MIT），已标注来源。",
