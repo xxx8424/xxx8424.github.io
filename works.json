@@ -1,6 +1,23 @@
 {
   "apps": [
     {
+      "name": "抖音自动续火花",
+      "tagline": "每天定时发一条火焰，保住火花标识",
+      "desc": "安卓端自动续火花：每天 08:00 给指定好友发一条 🔥。装好 AutoJs6 宿主 + 导入脚本 + 点一次运行即可长期生效，不需要电脑常开、不需要服务器。含新手分享包与完整交接包，提供傻瓜式下载。",
+      "icon": "🔥",
+      "tone": "orange",
+      "version": "1.0",
+      "platforms": ["Android"],
+      "size": "约 31 MB",
+      "downloads": [
+        { "label": "下载分享包（装到自己手机）", "url": "https://xxx8424.github.io/files/douyin-spark-share.zip" },
+        { "label": "下载完整交接包", "url": "https://xxx8424.github.io/files/douyin-spark-handoff.zip" }
+      ],
+      "download": "",
+      "downloadCode": "",
+      "github": ""
+    },
+    {
       "name": "VirtualLocation · 安卓虚拟定位",
       "tagline": "把手机定位改到任意地点",
       "desc": "打开就是全屏地图，拖动或点击选点，即可把系统定位改到该坐标。免 Root（设为「模拟位置信息应用」即可）用主 App；Root + LSPosed 用户可加装增强模块抹除模拟痕迹。地图用 OpenStreetMap，免 Key、免申请账号。",
