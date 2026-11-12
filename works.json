@@ -1,6 +1,19 @@
 {
   "apps": [
     {
+      "name": "图标小人 · Icon Fighters",
+      "tagline": "把桌面快捷方式图标变成火柴人对战",
+      "desc": "Windows 桌面小游戏。扫描你桌面上的快捷方式，用它们的真实图标拼成两个火柴人，在全屏透明、鼠标穿透的窗口里实时对打。原生快捷方式不会被移动或删除。单文件、零依赖、无需安装。",
+      "icon": "🥊",
+      "tone": "orange",
+      "version": "1.0.0",
+      "platforms": ["Windows"],
+      "size": "约 33 KB",
+      "download": "https://xxx8424.github.io/files/IconFighters-v1.0.0-win-x64.zip",
+      "downloadCode": "",
+      "github": ""
+    },
+    {
       "name": "DSH 通知 · 电脑端",
       "tagline": "任务结束，手机自动提醒",
       "desc": "装到 DSH（DeepSeek Harness）里的插件。每轮任务结束或出错时，自动把一条提醒推到已配对的手机 App，手机顶部弹出通知，人再回电脑看结果。纯局域网、扫码配对一次、永久使用。",
