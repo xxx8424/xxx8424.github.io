@@ -1,6 +1,19 @@
 {
   "apps": [
     {
+      "name": "WorkBuddy AI 接入 DSH",
+      "tagline": "免费模型接进 DeepSeek Harness",
+      "desc": "把 WorkBuddy AI 国际版的免费模型接入 DSH 的一键安装包。下载解压后双击 install.cmd，重启 DSH 就能在模型选择器看到「WorkBuddy AI」分组。插件来自开源项目 @venshell/dsh-workbuddy-connect（MIT），已标注来源。",
+      "icon": "🤖",
+      "tone": "purple",
+      "version": "1.0",
+      "platforms": ["Windows"],
+      "size": "约 0.2 MB",
+      "download": "https://xxx8424.github.io/files/workbuddy-connect-installer.zip",
+      "downloadCode": "",
+      "github": ""
+    },
+    {
       "name": "图标小人 · Icon Fighters",
       "tagline": "把桌面快捷方式图标变成火柴人对战",
       "desc": "Windows 桌面小游戏。扫描你桌面上的快捷方式，用它们的真实图标拼成两个火柴人，在全屏透明、鼠标穿透的窗口里实时对打。原生快捷方式不会被移动或删除。单文件、零依赖、无需安装。",
