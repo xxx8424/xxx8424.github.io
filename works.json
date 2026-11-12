@@ -6,10 +6,10 @@
       "desc": "Windows 桌面小游戏。扫描你桌面上的快捷方式，用它们的真实图标拼成两个火柴人，在全屏透明、鼠标穿透的窗口里实时对打。原生快捷方式不会被移动或删除。单文件、零依赖、无需安装。",
       "icon": "🥊",
       "tone": "orange",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "platforms": ["Windows"],
       "size": "约 33 KB",
-      "download": "https://xxx8424.github.io/files/IconFighters-v1.0.0-win-x64.zip",
+      "download": "https://xxx8424.github.io/files/IconFighters-v1.1.0-win-x64.zip",
       "downloadCode": "",
       "github": ""
     },
